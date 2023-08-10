@@ -1,0 +1,26 @@
+.title {
+  margin-top: 50px;
+}
+
+.logo {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.flex-title {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.flex-title h1 {
+  margin: 0;
+}
+
+.img-article {
+  margin-bottom: 10px;
+}
+
+.img-article img {
+  border-radius: 10px;
+}
