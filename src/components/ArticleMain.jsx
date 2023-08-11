@@ -1,4 +1,5 @@
 import React from "react";
+import ArtcleLista from "./ArtcleLista";
 
 const ArticleMain = ({ articulo }) => {
   return (
@@ -12,6 +13,7 @@ const ArticleMain = ({ articulo }) => {
           <p>{articulo.texto}</p>
         </div>
       </div>
+      <ArtcleLista title={articulo.titulo2} data1={articulo.items} />
     </article>
   );
 };

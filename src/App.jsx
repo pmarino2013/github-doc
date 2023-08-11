@@ -1,9 +1,8 @@
-import data1 from "./data/data1.json";
 import { ramaDefecto, conflictos } from "./data/articulos";
 import logo from "./assets/github_logo.gif";
 
 import ArticleMain from "./components/ArticleMain";
-import ArtcleLista from "./components/ArtcleLista";
+import FooterApp from "./components/FooterApp";
 
 function App() {
   return (
@@ -20,13 +19,16 @@ function App() {
             te explicaré las buenas prácticas.
           </h3>
         </hgroup>
-        <ArticleMain articulo={ramaDefecto} />
-        <ArtcleLista
-          title="Aquí hay algunas razones por las cuales usar la rama principal como rama por defecto es una buena práctica"
-          data1={data1}
-        />
-        <ArticleMain articulo={conflictos} />
+        <section>
+          <ArticleMain articulo={ramaDefecto} />
+        </section>
+        <section>
+          <ArticleMain articulo={conflictos} />
+        </section>
       </main>
+      <footer>
+        <FooterApp />
+      </footer>
     </div>
   );
 }

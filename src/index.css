@@ -23,4 +23,14 @@
 
 .img-article img {
   border-radius: 10px;
+  width: 100%;
+}
+
+button {
+  padding: 0;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: center;
 }
