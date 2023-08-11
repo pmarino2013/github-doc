@@ -10,7 +10,7 @@ const ramaDefecto = {
     {
       item: "Convenio estándar",
       texto:
-        "En muchos proyectos, 'main' o 'master' se ha convertido en una convención estándar para la rama principal donde se encuentra el código estable y listo para producción.",
+        "En muchos proyectos, 'main' se ha convertido en una convención estándar para la rama principal donde se encuentra el código estable y listo para producción.",
     },
     {
       item: "Compatibilidad con herramientas",
