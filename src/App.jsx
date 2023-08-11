@@ -1,17 +1,37 @@
+import { useState } from "react";
 import { ramaDefecto, conflictos } from "./data/articulos";
+
 import logo from "./assets/github_logo.gif";
 
 import ArticleMain from "./components/ArticleMain";
 import FooterApp from "./components/FooterApp";
 
 function App() {
+  const [darkMode, setDarkMode] = useState(false);
+
   return (
-    <div>
+    <div
+      data-theme={darkMode ? "dark" : "light"}
+      className={darkMode ? "" : "bg-light"}
+    >
       <main className="container">
         <hgroup className="title">
           <div className="flex-title">
             <h1>Github</h1>
             <img className="logo" src={logo} alt="logo github" />
+          </div>
+          <div className="mode">
+            <fieldset>
+              <label>
+                <input
+                  type="checkbox"
+                  id="switch"
+                  name="switch"
+                  role="switch"
+                  onChange={() => setDarkMode(!darkMode)}
+                />
+              </label>
+            </fieldset>
           </div>
 
           <h3>
