@@ -11,6 +11,12 @@ const ArticleMain = ({ articulo }) => {
         </div>
         <div>
           <p>{articulo.texto}</p>
+          <small>
+            <a href={articulo.url} target="_blank">
+              Más info
+            </a>
+            👈
+          </small>
         </div>
       </div>
       <ArtcleLista title={articulo.titulo2} data1={articulo.items} />

@@ -33,6 +33,7 @@ const ramaDefecto = {
         "En muchos flujos de trabajo de desarrollo, se hace un seguimiento de las ramas de características, ramas de correcciones de errores y otras ramas de desarrollo antes de fusionar en la rama principal. Al tener la rama principal como la rama por defecto, refleja este flujo de trabajo común.",
     },
   ],
+  url: "https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches",
 };
 
 const conflictos = {
@@ -69,6 +70,7 @@ const conflictos = {
         "Si estás tratando de fusionar ramas, después de resolver los conflictos y hacer 'push' de los cambios, la fusión se completará en GitHub.",
     },
   ],
+  url: "https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github",
 };
 
 export { ramaDefecto, conflictos };

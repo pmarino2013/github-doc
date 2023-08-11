@@ -19,7 +19,7 @@ const ArtcleLista = ({ title, data1 }) => {
         </div>
       </div>
       {openBtn1 && (
-        <ul>
+        <ul className={`animate__animated animate__fadeIn`}>
           {data1.map((data, index) => (
             <ListaRamaPrincipal key={index} data={data} />
           ))}
