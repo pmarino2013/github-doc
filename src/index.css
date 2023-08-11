@@ -47,6 +47,9 @@ button {
 .bg-light {
   background-color: rgb(244, 244, 244);
 }
+.bg-dark {
+  background-color: #11191f;
+}
 
 .mode {
   position: absolute;

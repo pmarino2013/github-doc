@@ -12,7 +12,7 @@ function App() {
   return (
     <div
       data-theme={darkMode ? "dark" : "light"}
-      className={darkMode ? "" : "bg-light"}
+      className={darkMode ? "b-dark" : "bg-light"}
     >
       <main className="container">
         <hgroup className="title">
