@@ -3,7 +3,7 @@ const ramaDefecto = {
     "Por buenas prácticas, ¿cúal debería ser la rama por defecto en Github?",
   img: "https://miro.medium.com/v2/resize:fit:801/1*DhagidpZutkaCmAZobmzDQ.png",
   texto:
-    'En GitHub, una buena práctica es utilizar la rama principal (por ejemplo, "main" o "master") como la rama por defecto para el repositorio. Sin embargo, ten en cuenta que esta práctica puede variar dependiendo de las preferencias y convenciones de tu equipo o proyecto.',
+    'En GitHub, una buena práctica es utilizar la rama principal ("main") como la rama por defecto para el repositorio. Sin embargo, ten en cuenta que esta práctica puede variar dependiendo de las preferencias y convenciones de tu equipo o proyecto.',
   titulo2:
     "Aquí hay algunas razones por las cuales usar la rama principal como rama por defecto es una buena práctica...",
   items: [
