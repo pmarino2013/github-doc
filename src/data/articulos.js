@@ -5,7 +5,7 @@ const ramaDefecto = {
   texto:
     'En GitHub, una buena práctica es utilizar la rama principal ("main") como la rama por defecto para el repositorio. Sin embargo, ten en cuenta que esta práctica puede variar dependiendo de las preferencias y convenciones de tu equipo o proyecto.',
   titulo2:
-    "Aquí hay algunas razones por las cuales usar la rama principal como rama por defecto es una buena práctica...",
+    "Razones por las cuales usar la rama principal como rama por defecto es una buena práctica...",
   items: [
     {
       item: "Convenio estándar",
