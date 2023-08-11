@@ -14,7 +14,7 @@ const ArtcleLista = ({ title, data1 }) => {
 
         <div>
           <button onClick={() => setOpenBtn1(!openBtn1)}>
-            <span>👀</span>
+            <span>👇</span>
           </button>
         </div>
       </div>
