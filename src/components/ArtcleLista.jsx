@@ -6,7 +6,7 @@ const ArtcleLista = ({ title, data1 }) => {
     <>
       <div className="grid lista">
         <details>
-          <summary role="button" className="outline">
+          <summary role="button" className="secondary">
             {title}
           </summary>
 
