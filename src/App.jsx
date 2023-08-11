@@ -19,10 +19,10 @@ function App() {
             te explicaré las buenas prácticas.
           </h3>
         </hgroup>
-        <section>
+        <section className="animate__animated animate__fadeIn">
           <ArticleMain articulo={ramaDefecto} />
         </section>
-        <section>
+        <section className="animate__animated animate__fadeIn">
           <ArticleMain articulo={conflictos} />
         </section>
       </main>
