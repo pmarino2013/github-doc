@@ -1,6 +1,9 @@
 main hgroup {
   position: relative;
 }
+article {
+  margin: 0;
+}
 .title {
   padding-top: 50px;
 }
@@ -10,13 +13,19 @@ main hgroup {
   border-radius: 50%;
 }
 
+.logo-indice {
+  width: 20px;
+  border-radius: 50%;
+}
+
 .flex-title {
   display: flex;
   align-items: center;
   gap: 5px;
 }
 
-.flex-title h1 {
+.flex-title h1,
+.flex-title h2 {
   margin: 0;
 }
 
@@ -27,6 +36,8 @@ main hgroup {
 .img-article img {
   border-radius: 10px;
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 button {
@@ -55,4 +66,25 @@ button {
   position: absolute;
   top: 20px;
   right: 10px;
+}
+
+.fixed nav {
+  margin-left: 10px;
+}
+
+.fixed li,
+.fixed nav,
+.fixed ol,
+.fixed ul {
+  display: block;
+}
+
+@media (min-width: 992px) {
+  .fixed nav {
+    position: fixed;
+    width: 200px;
+    max-height: calc(100vh - 5.5rem);
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
 }

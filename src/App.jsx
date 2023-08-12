@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ramaDefecto, conflictos } from "./data/articulos";
+import info from "./data/articulos";
 
 import logo from "./assets/github_logo.gif";
 
@@ -19,6 +19,7 @@ function App() {
           <div className="flex-title">
             <h1>Github</h1>
             <img className="logo" src={logo} alt="logo github" />
+            <h2>Doc</h2>
           </div>
           <div className="mode">
             <fieldset>
@@ -39,12 +40,42 @@ function App() {
             te explicaré las buenas prácticas.
           </h3>
         </hgroup>
-        <section className="animate__animated animate__fadeIn">
-          <ArticleMain articulo={ramaDefecto} />
-        </section>
-        <section className="animate__animated animate__fadeIn">
-          <ArticleMain articulo={conflictos} />
-        </section>
+        <div className="row">
+          <div className="col-md-3">
+            <aside className="fixed">
+              <nav>
+                <details>
+                  <summary>
+                    Índice <img className="logo-indice" src={logo} alt="logo" />
+                  </summary>
+                  <ul>
+                    {info.map((item, index) => (
+                      <li key={index}>
+                        <a href={`#${index}`}>
+                          <small>
+                            {index + 1}-{item.titulo}
+                          </small>
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </details>
+              </nav>
+            </aside>
+          </div>
+
+          <div className="col-md-9">
+            {info.map((item, index) => (
+              <section
+                key={index}
+                id={index}
+                className="animate__animated animate__fadeIn"
+              >
+                <ArticleMain articulo={item} />
+              </section>
+            ))}
+          </div>
+        </div>
       </main>
       <footer>
         <FooterApp />
