@@ -5,6 +5,7 @@ import logo from "./assets/github_logo.gif";
 
 import ArticleMain from "./components/ArticleMain";
 import FooterApp from "./components/FooterApp";
+import NavApp from "./components/NavApp";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -76,6 +77,7 @@ function App() {
             ))}
           </div>
         </div>
+        <NavApp />
       </main>
       <footer>
         <FooterApp />

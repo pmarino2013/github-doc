@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 main hgroup {
   position: relative;
 }
@@ -78,6 +82,14 @@ button {
 .fixed ul {
   display: block;
 }
+.flecha {
+  position: fixed;
+  right: 20px;
+  bottom: 50px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+}
 
 @media (min-width: 992px) {
   .fixed nav {
@@ -86,5 +98,8 @@ button {
     max-height: calc(100vh - 5.5rem);
     overflow-x: hidden;
     overflow-y: auto;
+  }
+  .flecha {
+    display: none;
   }
 }
