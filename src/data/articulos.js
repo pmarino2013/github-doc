@@ -142,7 +142,7 @@ const info = [
       {
         item: "Pull Requests",
         texto:
-          "Cuando estés listo para compartir tus cambios, crea unpull request desde tu rama hacia la rama principal del repositorio original.\nProporciona una descripción clara de tus cambios y por qué son necesarios.",
+          "Cuando estés listo para compartir tus cambios, crea un pull request desde tu rama hacia la rama principal del repositorio original.\nProporciona una descripción clara de tus cambios y por qué son necesarios.",
       },
       {
         item: "Revisiones y Comentarios",
